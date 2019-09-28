@@ -23,7 +23,7 @@
   .main-menu-item {
       font-family: 'Cormorant-SemiBold';
       color: #b6c3c2;
-      margin-top: 10%;
+      margin-top: 2vh;
       padding-left: 50px;
       letter-spacing: 3px;
       animation-name: flipInX;
@@ -88,6 +88,17 @@
   cursor: pointer;
 }
 
+#secondFooter{
+    display: block;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    height: 40px;
+  }
 
 
 @media screen and (max-width: 1024px){
@@ -95,17 +106,17 @@
 #main-menu {
     display: none;
   }
-#mb-menu {
+#secondFooter {
     display: block;
 
 
   }
 .desktopMenu {
 
-  width: 100%;
-  top:95%;
-  background-color: #333;
-   height: 5%;
+  width: 0%;
+  
+
+   height: 0%;
      
 }
 .main-menu-item{
@@ -119,11 +130,12 @@
 #main-menu {
     display: block;
   }
-#mb-menu {
+#secondFooter {
     display: none;
   }
 
 
 
 }
+
 
