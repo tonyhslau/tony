@@ -228,7 +228,7 @@ Header intro
 .headline-subtitle {
     font-size: 16px;
      font-weight: 900;
-     text-align: center;
+     text-align: left;
 }
 
 
@@ -430,7 +430,7 @@ Header intro
 .socialMeida{
 
     width: 100%; 
-    text-align: center;
+    text-align: left;
      font-size: 1.5rem;
 }
 .fab{
